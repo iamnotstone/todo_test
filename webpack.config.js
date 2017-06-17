@@ -1,4 +1,7 @@
 module.exports = {
+    output:{
+	filename:"app.bundle.js"
+    },
     module : {
         loaders: [ { 
                 test   : /\.js$/,
